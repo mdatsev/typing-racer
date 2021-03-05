@@ -1,0 +1,11 @@
+[package]
+name = "typing-racer"
+version = "0.1.0"
+authors = ["root"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pancurses = { version = "0.16", features = ["wide"] }
+rand = "0.8"
